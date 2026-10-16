@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the vacation policy?",
+    "expected_answer_contains": "15 paid vacation days",
+    "expected_source": "sample_employee_handbook.pdf"
+  },
+  {
+    "question": "How early should vacation requests be submitted?",
+    "expected_answer_contains": "two weeks in advance",
+    "expected_source": "sample_employee_handbook.pdf"
+  },
+  {
+    "question": "Can employees work remotely?",
+    "expected_answer_contains": "two days per week",
+    "expected_source": "sample_employee_handbook.pdf"
+  },
+  {
+    "question": "What is the remote work policy?",
+    "expected_answer_contains": "remotely",
+    "expected_source": "sample_employee_handbook.pdf"
+  },
+  {
+    "question": "Do employees need multi-factor authentication?",
+    "expected_answer_contains": "multi-factor authentication",
+    "expected_source": "sample_employee_handbook.pdf"
+  },
+  {
+    "question": "Can employees share company passwords?",
+    "expected_answer_contains": "must not be shared",
+    "expected_source": "sample_employee_handbook.pdf"
+  },
+  {
+    "question": "What should new employees complete?",
+    "expected_answer_contains": "security training",
+    "expected_source": "sample_employee_handbook.pdf"
+  },
+  {
+    "question": "How many vacation days do full-time employees receive?",
+    "expected_answer_contains": "15",
+    "expected_source": "sample_employee_handbook.pdf"
+  },
+  {
+    "question": "When should I submit my vacation request?",
+    "expected_answer_contains": "two weeks",
+    "expected_source": "sample_employee_handbook.pdf"
+  },
+  {
+    "question": "What is the maternity leave policy?",
+    "expected_answer_contains": "couldn't find",
+    "expected_source": null
+  },
+  {
+    "question": "What is the company health insurance plan?",
+    "expected_answer_contains": "couldn't find",
+    "expected_source": null
+  },
+  {
+    "question": "Does the company offer free lunch?",
+    "expected_answer_contains": "couldn't find",
+    "expected_source": null
+  }
+]

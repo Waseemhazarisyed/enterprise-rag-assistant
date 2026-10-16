@@ -1,7 +1,8 @@
 import { supabase } from "./supabase";
 
 const API_URL =
-  "http://127.0.0.1:8000/api/v1";
+  process.env.NEXT_PUBLIC_API_URL ??
+  "https://enterprise-rag-assistant-api.onrender.com/api/v1";
 
 export async function apiFetch(
   path: string,

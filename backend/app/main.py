@@ -26,10 +26,13 @@ frontend_url = os.getenv("FRONTEND_URL")
 allowed_origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "http://localhost:3001",
+    "http://127.0.0.1:3001",
 ]
 
-# Add deployed frontend later, for example:
-# https://enterprise-rag-assistant.vercel.app
+# Later, when Vercel is deployed,
+# Render can provide the production frontend URL through:
+# FRONTEND_URL=https://your-app.vercel.app
 
 if frontend_url:
     allowed_origins.append(
